@@ -1,0 +1,16 @@
+Rishab Das
+Sherveer Pannu
+Alejandro Herrera
+
+To run our program we have to first generate a sample graph that will be used.
+We can do this by typing this in the terminal when you are in our directory.
+python3 generateSample.py
+This will ask questions or how big the graph should be and the start end point. Make sure that you name the file sample
+as then it will make it into a .txt file.
+Now to run the Visualizer input this into the terminal
+python3 visualizer.py sample.txt
+This will generate the graph in a new window. Next we have to go back to the terminal where we orginally ran it and then
+pick if you want to run A* or Theta*. You will type in a or t to chose which one. Once this is done it will shows the
+indices that are used and will draw the path on the window that was open before. It also displays the runtime on the bottom
+NOTE: As of right now this program will only run if sample.txt is used as that is what the program calls for. If you
+would like to use a different file with a different name then it must be changed in visualizer toward the bottom.
